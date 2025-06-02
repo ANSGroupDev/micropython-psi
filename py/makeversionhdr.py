@@ -12,10 +12,12 @@ import os
 import datetime
 import subprocess
 
-# the psi_version string must be updated for every new build
-# populate from build_config.json
-psi_version = "v0.5.0"
+####################################################################################
+# The psi_version string must be updated for every new release
+psi_version = "v1.1.0"
+####################################################################################
 
+####################################################################################
 # The MicroPython repository tags a release commit as "vX.Y.Z", and the commit
 # immediately following as "vX.(Y+1).Z-preview".
 # This function will return:
